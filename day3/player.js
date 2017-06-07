@@ -153,13 +153,13 @@ const playSong = function(song, bpm, onComplete) {
 
 };
 
-let song = [  {pitch: 'E', beats: 0.25},
-               {pitch: 'E', beats: 0.25},
-               {pitch: 'F', beats: 0.25},
-               {pitch: 'G', beats: 0.25},
-               {pitch: 'G', beats: 0.25},
-               {pitch: 'F', beats: 0.25},
-               {pitch: 'F', beats: 0.25}
-             ];
+// let song = [  {pitch: 'E', beats: 0.25},
+//               {pitch: 'E', beats: 0.25},
+//               {pitch: 'F', beats: 0.25},
+//               {pitch: 'G', beats: 0.25},
+//               {pitch: 'G', beats: 0.25},
+//               {pitch: 'F', beats: 0.25},
+//               {pitch: 'F', beats: 0.25}
+//             ];
 
-playSong(song, 0.25);
+// playSong(song, 0.25);
