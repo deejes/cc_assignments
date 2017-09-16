@@ -18,5 +18,9 @@ from django.contrib import admin
 from . import views
 urlpatterns = [
     url(r'^$', views.index,name='index'),
+    url(r'^resume.html', views.resume,name='resume'),
+    url(r'^projects.html', views.projects,name='projects'),
+
+
 
 ]
