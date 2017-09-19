@@ -1,12 +1,62 @@
-{% extends "personal/header.html" %}
+{% extends "personal/base.html" %}
 
-
+{% load static%}
 {%block content%}
-<H2>
+<div class="container" style="background-image: url({% static 'img/home-bg.jpg'%})>
+	    <div class="row" >
+  <div class="col-lg-8 col-md-10 mx-auto">
+   
 
-  Projects
+    <div class="post-preview">
+      <a href="https://github.com/deejes/Machine-Learning-Sentiment-analysis">
+        <h2 "class="post-title">
+          Sentiment Analysis - Machine Learning
+        </h2>
+        <p class="post-subtitle">
+          Using Python, Scikitlearn and Nltk. Some more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more 
+        </p>
+      </a>
 
-  
-</H2>
+    </div>
+    
+    <hr>
+
+
+
+    <div class="post-preview">
+      <a href="https://github.com/deejes/Machine-Learning-Sentiment-analysis">
+        <h2 class="post-title">
+          Bytes Me
+        </h2>
+        <h7 class="post-subtitle">
+          Group Project with Ruby on Rails, React Blah BlahSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome  
+        </h7>
+      </a>
+      
+    </div>
+
+    
+
+    <div class="post-preview">
+      <a href="https://github.com/deejes/portfolio/blob/master/poker_solver.py">
+        <h2 class="post-title">
+          Poker Solver
+        </h2>
+        <h7 class="post-subtitle">
+          Group Project with Ruby on Rails, React Blah BlahSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome more textSome  
+        </h7>
+      </a>
+      
+    </div>
+
+    <hr>
+
+
+ 
+  </div>
+</div>
+</div>
+
+<hr>
 
 {%endblock%}

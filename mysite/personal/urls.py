@@ -20,6 +20,10 @@ urlpatterns = [
     url(r'^$', views.index,name='index'),
     url(r'^resume.html', views.resume,name='resume'),
     url(r'^projects.html', views.projects,name='projects'),
+    url(r'^about.html', views.about,name='about'),
+    url(r'^home.html', views.index,name='index'),
+    url(r'^contact.html', views.contact,name='conact'),
+
 
 
 
