@@ -77,6 +77,5 @@ virtualenv-clone==0.2.6
 wcwidth==0.1.7
 Werkzeug==0.12.2
 whitenoise==3.3.0
-xdiagnose==3.8.4.1
 xkit==0.0.0
 XlsxWriter==0.7.3
