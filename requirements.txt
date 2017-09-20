@@ -19,7 +19,6 @@ pexpect==4.0.1
 ptyprocess==0.5
 pyasn1==0.1.9
 pyasn1-modules==0.0.7
-pygame===1.9.1release
 pygobject==3.20.0
 pylibmc==1.5.2
 pyOpenSSL==0.15.1
