@@ -19,7 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^', include('personal.urls')),
-    url(r'^blog/', include('zinnia.urls')),
+    url(r'^blog/', include('blog.urls')),
     url(r'^comments', include('django_comments.urls'))
 
 ]
