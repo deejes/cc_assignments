@@ -35,7 +35,6 @@ monotonic==1.3
 more-itertools==3.2.0
 mots-vides==2015.5.11
 olefile==0.44
-onboard==1.2.0
 padme==1.1.1
 pew==0.1.26
 pexpect==4.2.1
