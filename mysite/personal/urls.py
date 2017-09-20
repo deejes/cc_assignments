@@ -22,9 +22,6 @@ urlpatterns = [
     url(r'^projects', views.projects,name='projects'),
     url(r'^about', views.about,name='about'),
     url(r'^home', views.index,name='index'),
-    url(r'^contact', views.contact,name='conact'),
-
-
-
+    url(r'^contact', views.contact,name='contact'),
 
 ]
