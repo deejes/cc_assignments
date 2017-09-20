@@ -72,10 +72,7 @@ six==1.10.0
 sqlparse==0.1.18
 tenacity==4.4.0
 traitlets==4.3.2
-ufw==0.35
 unattended-upgrades==0.1
-urllib3==1.21.1
-usb-creator==0.3.0
 virtualenv==15.1.0
 virtualenv-clone==0.2.6
 wcwidth==0.1.7
