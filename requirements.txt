@@ -70,7 +70,6 @@ semver==2.7.8
 simplegeneric==0.8.1
 six==1.10.0
 sqlparse==0.1.18
-system-service==0.3
 tenacity==4.4.0
 traitlets==4.3.2
 ufw==0.35
