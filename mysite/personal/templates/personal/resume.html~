@@ -1,7 +1,0 @@
-{% extends "perosonal/header.html"%}
-
-
-<H2>
-
-Resume
-</H2>
